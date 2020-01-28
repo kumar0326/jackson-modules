@@ -76,9 +76,11 @@
       </plugins>
     </pluginManagement>
   </build>
-	<distribution management>
-		 <id>sonatype</id>
-      <name>jack-snapshot</name>
-   <url>http://localhost:8081/repository/jack-snapshot/</url>
-</distribution management>
+	 <distributionManagement>
+    <repository>
+	    <id>interna/</id>
+	       <name>jack-snapshot</name>
+      <url>http://localhost:8081/repository/jack-snapshot/</url>
+    </repository>
+  </distributionManagement>
 </project>
