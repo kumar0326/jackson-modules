@@ -48,9 +48,9 @@
        snapshot of parent... -->
   <repositories>
     <repository>
-      <id>sonatype</id>
-      <name>jack-snapshot</name>
-   <url>http://localhost:8081/repository/jack-snapshot/</url>
+      <id>sony</id>
+	    <name>jack-snapshot</name>
+	    <url>http://localhost:8081/repository/jack-snapshot</url>
       <releases><enabled>false</enabled></releases>
       <snapshots><enabled>true</enabled></snapshots>
     </repository>
@@ -78,7 +78,7 @@
   </build>
 	 <distributionManagement>
     <repository>
-	    <id>interna/</id>
+	    <id>sony</id>
 	       <name>jack-snapshot</name>
       <url>http://localhost:8081/repository/jack-snapshot/</url>
     </repository>
